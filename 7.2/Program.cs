@@ -29,7 +29,51 @@ namespace _7._2
                 {
                     Console.WriteLine("correct!");
                 }
+                using static System.Runtime.InteropServices.JavaScript.JSType;
 
+namespace _7._1
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            int Average;
+            Console.WriteLine("write down 4 numbers");
+            int numba;
+            int numba2;
+            int numba3;
+            int numba4;
+            numba = Convert.ToInt32(Console.ReadLine());
+            numba2 = Convert.ToInt32(Console.ReadLine());
+            numba3 = Convert.ToInt32(Console.ReadLine());
+            numba4 = Convert.ToInt32(Console.ReadLine());
+
+            for (int i = 1; i <= 4; i = i + 1)
+            {
+                Console.WriteLine(numba + numba2 + numba3 + numba4 * 4);
+               
+                
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                
 
             }
 
